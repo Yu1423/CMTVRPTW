@@ -19,7 +19,7 @@ class DRP;
 class CMTVRPTW_EXT
 {
 	std::string ProbType;
-    CMTVRPTW* cmtvrp;
+	CMTVRPTW* cmtvrp;
 	CMTVRPTW_LT* cmtvrp_lt;
 	CMTVRPTW_LD* cmtvrp_ld;
 	CMTVRPTW_R* cmtvrp_r;
@@ -36,6 +36,8 @@ public:
 	
 	void Change_number_threads(int );
 	void Change_time_limit(double );
+	void Set_NUM_RC(int );
+	void Skip(std::string );
 	
 	~CMTVRPTW_EXT();
 	void Solve();
