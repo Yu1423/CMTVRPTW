@@ -48,7 +48,7 @@ int main(){
 	// default is 3h, i.e, 10800s, change if you would like to use a different time limit
 //	mtvrp.Change_time_limit(7200);
 	
-	// default is 8 threads for solving MIPs, change if you would like to more or fewer threads
+	// default is 8 threads for solving MIPs, change if you would like to use more or fewer threads
 //	mtvrp.Change_number_threads(1);
 	
 	// call this method function to solve the instance
