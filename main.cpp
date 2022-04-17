@@ -55,7 +55,5 @@ int main(){
 	mtvrp.Solve();
 	
 	
-	GRBfreeenv(env1);
-	GRBfreeenv(env2);
 	return 0;
 }
